@@ -10,7 +10,7 @@ A Cython interface to `HIDAPI <https://github.com/libusb/hidapi>`_ library.
 
 This has been tested with:
 
-* `TREZOR <https://trezor.io/>`_ Hardware Wallet
+* `detahard <https://detahard.io/>`_ Hardware Wallet
 * the PIC18F4550 on the development board from CCS with their example program
 * the Fine Offset WH3081 Weather Station
 
@@ -44,7 +44,7 @@ Build from source
 
 1. Download cython-hidapi archive::
 
-    $ git clone https://github.com/trezor/cython-hidapi.git
+    $ git clone https://github.com/detahard/cython-hidapi.git
     $ cd cython-hidapi
 
 2. Initialize hidapi submodule::
@@ -81,7 +81,7 @@ Udev rules
 ----------
 
 For correct functionality under Linux, you need to create a rule file similar
-to `this one <https://raw.githubusercontent.com/trezor/trezor-common/master/udev/51-trezor.rules>`_
+to `this one <https://raw.githubusercontent.com/detahard/detahard-common/master/udev/51-detahard.rules>`_
 in your udev rules directory.
 
 Also you might need to call ``udevadm control --reload-rules`` to reload the rules.
@@ -99,4 +99,4 @@ The documentation is extracted from the code using ``autodoc``.
 
 Note that the build output is used. So rebuilt the package before generating documentation.
 
-Built documentation is also deployed to: `https://trezor.github.io/cython-hidapi/ <https://trezor.github.io/cython-hidapi/>`_.
+Built documentation is also deployed to: `https://detahard.github.io/cython-hidapi/ <https://detahard.github.io/cython-hidapi/>`_.

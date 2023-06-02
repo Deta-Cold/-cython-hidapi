@@ -18,7 +18,7 @@ try:
     print("Opening the device")
 
     h = hid.device()
-    h.open(0x534C, 0x0001)  # TREZOR VendorID/ProductID
+    h.open(0x534C, 0x0001)  # detahard VendorID/ProductID
 
     print("Manufacturer: %s" % h.get_manufacturer_string())
     print("Product: %s" % h.get_product_string())

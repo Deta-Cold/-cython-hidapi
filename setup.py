@@ -121,7 +121,7 @@ setup(
     author_email="pavol@rusnak.io",
     maintainer="Pavol Rusnak",
     maintainer_email="pavol@rusnak.io",
-    url="https://github.com/trezor/cython-hidapi",
+    url="https://github.com/detahard/cython-hidapi",
     package_dir={"hid": "hidapi/*"},
     classifiers=[
         "Operating System :: MacOS :: MacOS X",
